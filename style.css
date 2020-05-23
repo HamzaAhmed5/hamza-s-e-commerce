@@ -1,0 +1,66 @@
+.navbar {
+    background-color: crimson !important;
+}
+.nav-link {
+    color: white !important;
+    font-weight: bold !important;
+}
+.logo {
+    height: 50px !important;
+    width: 200px !important;
+}
+.fa-shopping-cart, .fa-user-circle-o,{
+    font-size: 28px !important;
+}
+.fa-truck,.fa-phone-square, .fa-thumbs-up {
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: crimson !important;
+}
+.card1,.card2,.card3 {
+    display: flex;
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.maincard{
+    margin-left: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 375px) {
+}
+.newarrivals{
+    margin-top: 30px;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: crimson;
+    margin: 20px;
+}
+.heading > h1{
+    text-shadow: 2px 2px 4px black;
+}
+
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: crimson;
+}
+.footer{
+    width: 100%;
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    height: 100px;
+    margin-top: 30px;
+}
